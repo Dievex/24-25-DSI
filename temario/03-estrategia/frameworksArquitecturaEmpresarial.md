@@ -48,6 +48,52 @@ Los frameworks de arquitectura empresarial proporcionan beneficios significativo
 
 ## ¿Cómo?
 
+### Framework de Zachman
+
+El Framework de Zachman, desarrollado por John Zachman en la década de 1980, es uno de los marcos de arquitectura empresarial más antiguos y fundamentales, basado en principios de clasificación y organización de artefactos arquitectónicos.
+
+#### Principios fundamentales
+
+- Enfoque en taxonomía y clasificación
+- Matriz bidimensional de perspectivas y dimensiones
+- Completo: aborda todas las vistas relevantes de una empresa
+- Independiente de herramientas o metodologías específicas
+- Neutralidad respecto a procesos: se centra en el "qué" más que en el "cómo"
+
+#### Estructura de la matriz de Zachman
+
+<div align=center>
+
+|Perspectivas (filas)|Interrogantes (columnas)|
+|-|-|
+|**Contextual (Planificador)**<br>Alcance y contexto|**¿Qué?**<br>Datos|
+|**Conceptual (Propietario)**<br>Modelo del negocio|**¿Cómo?**<br>Función|
+|**Lógica (Diseñador)**<br>Modelo de sistema|**¿Dónde?**<br>Red|
+|**Física (Constructor)**<br>Modelo tecnológico|**¿Quién?**<br>Personas|
+|**Detallada (Subcontratista)**<br>Especificaciones detalladas|**¿Cuándo?**<br>Tiempo|
+|**Funcional (Usuario)**<br>Empresa operativa|**¿Por qué?**<br>Motivación|
+
+</div>
+
+La matriz resultante de 6×6 genera 36 celdas, cada una representando un tipo específico de artefacto arquitectónico.
+
+#### Fortalezas y limitaciones
+
+<div align=center>
+
+|Fortalezas|Limitaciones|
+|-|-|
+|Taxonomía clara y completa|No proporciona un proceso o metodología de implementación|
+|Estructura intuitiva y fácil de comprender conceptualmente|Puede generar un exceso de documentación|
+|Independencia de metodologías específicas|Riesgo de compartimentación excesiva de la información|
+|Visión holística que abarca todos los aspectos empresariales|Desafíos para mantener actualizada una implementación completa|
+|Versatilidad para aplicarse en diversos contextos|Menos específico que otros frameworks en cuanto a entregables concretos|
+|Base conceptual sólida para otros frameworks
+
+</div>
+
+> [*+Detalle*](zachman.md)
+
 ### The Open Group Architecture Framework (TOGAF)
 
 TOGAF es uno de los frameworks de arquitectura empresarial más adoptados globalmente, desarrollado y mantenido por The Open Group.
@@ -56,7 +102,7 @@ TOGAF es uno de los frameworks de arquitectura empresarial más adoptados global
 
 - Enfoque en el método de desarrollo de arquitectura (ADM)
 - Flexibilidad y adaptabilidad a distintos contextos organizacionales
-- Visión holística que integra negocio y tecnología
+- Visión integradora que auna negocio y tecnología
 - Repositorio estructurado de artefactos y entregables
 - Aproximación iterativa e incremental
 
@@ -88,67 +134,22 @@ TOGAF es uno de los frameworks de arquitectura empresarial más adoptados global
 9. **Fase H: Gestión de cambios arquitectónicos**: Monitorización y adaptación continua
 10. **Gestión de requerimientos**: Proceso transversal a todas las fases
 
-#### Fortalezas de TOGAF
-
-- Método detallado y comprensivo (ADM)
-- Amplia adopción y comunidad global activa
-- Flexibilidad para adaptarse a diferentes contextos
-- Repositorio extenso de técnicas, artefactos y plantillas
-- Compatibilidad con otros frameworks y estándares
-- Enfoque en la práctica y aplicación real
-
-#### Limitaciones de TOGAF
-
-- Complejidad que puede resultar abrumadora para organizaciones pequeñas
-- Curva de aprendizaje significativa
-- Riesgo de enfoque excesivo en documentación frente a implementación
-- Necesidad de adaptación considerable para contextos específicos
-
-### Framework de Zachman
-
-El Framework de Zachman, desarrollado por John Zachman en la década de 1980, es uno de los marcos de arquitectura empresarial más antiguos y fundamentales, basado en principios de clasificación y organización de artefactos arquitectónicos.
-
-#### Principios fundamentales
-
-- Enfoque en taxonomía y clasificación
-- Matriz bidimensional de perspectivas y dimensiones
-- Completo: aborda todas las vistas relevantes de una empresa
-- Independiente de herramientas o metodologías específicas
-- Neutralidad respecto a procesos: se centra en el "qué" más que en el "cómo"
-
-#### Estructura de la matriz de Zachman
+#### Fortalezas y limitaciones
 
 <div align=center>
 
-|Perspectivas (filas)|Interrogantes (columnas)|
+|Fortalezas|Limitaciones|
 |-|-|
-|**Contextual (Planificador)**<br>Alcance y contexto|**¿Qué?**<br>Datos|
-|**Conceptual (Propietario)**<br>Modelo del negocio|**¿Cómo?**<br>Función|
-|**Lógica (Diseñador)**<br>Modelo de sistema|**¿Dónde?**<br>Red|
-|**Física (Constructor)**<br>Modelo tecnológico|**¿Quién?**<br>Personas|
-|**Detallada (Subcontratista)**<br>Especificaciones detalladas|**¿Cuándo?**<br>Tiempo|
-|**Funcional (Usuario)**<br>Empresa operativa|**¿Por qué?**<br>Motivación|
+|Método detallado y comprensivo (ADM)|Complejidad que puede resultar abrumadora para organizaciones pequeñas|
+|Amplia adopción y comunidad global activa|Curva de aprendizaje significativa|
+|Flexibilidad para adaptarse a diferentes contextos|Riesgo de enfoque excesivo en documentación frente a implementación|
+|Repositorio extenso de técnicas, artefactos y plantillas|Necesidad de adaptación considerable para contextos específicos|
+|Compatibilidad con otros frameworks y estándares|
+|Enfoque en la práctica y aplicación real|
 
 </div>
 
-La matriz resultante de 6×6 genera 36 celdas, cada una representando un tipo específico de artefacto arquitectónico.
-
-#### Fortalezas del Framework de Zachman
-
-- Taxonomía clara y completa
-- Estructura intuitiva y fácil de comprender conceptualmente
-- Independencia de metodologías específicas
-- Visión holística que abarca todos los aspectos empresariales
-- Versatilidad para aplicarse en diversos contextos
-- Base conceptual sólida para otros frameworks
-
-#### Limitaciones del Framework de Zachman
-
-- No proporciona un proceso o metodología de implementación
-- Puede generar un exceso de documentación
-- Riesgo de compartimentación excesiva de la información
-- Desafíos para mantener actualizada una implementación completa
-- Menos específico que otros frameworks en cuanto a entregables concretos
+> [*+Detalle*](togaf.md)
 
 ### Federal Enterprise Architecture Framework (FEAF/FEA)
 
@@ -186,22 +187,22 @@ El FEAF define un proceso colaborativo de planificación arquitectónica que inc
 4. **Arquitectura de segmento**: Detalle arquitectónico para áreas funcionales específicas
 5. **Arquitectura de solución**: Diseño detallado de sistemas y aplicaciones concretas
 
-#### Fortalezas del FEAF
+#### Fortalezas y limitaciones
 
-- Enfoque pragmático orientado a resultados
-- Modelos de referencia bien definidos y detallados
-- Fuerte orientación hacia medición de valor y rendimiento
-- Taxonomías estandarizadas que facilitan la comunicación
-- Énfasis en la reutilización y eficiencia
-- Diseñado para entornos organizacionales complejos
+<div align=center>
 
-#### Limitaciones del FEAF
+|Fortalezas|Limitaciones|
+|-|-|
+|Enfoque pragmático orientado a resultados|Complejidad inicial significativa|
+|Modelos de referencia bien definidos y detallados|Orientación originalmente gubernamental, requiere adaptación en otros sectores|
+|Fuerte orientación hacia medición de valor y rendimiento|Puede resultar excesivamente estructurado para organizaciones ágiles|
+|Taxonomías estandarizadas que facilitan la comunicación|Necesidad de personalización para contextos específicos|
+|Énfasis en la reutilización y eficiencia|Curva de aprendizaje pronunciada|
+|Diseñado para entornos organizacionales complejos
 
-- Complejidad inicial significativa
-- Orientación originalmente gubernamental, requiere adaptación en otros sectores
-- Puede resultar excesivamente estructurado para organizaciones ágiles
-- Necesidad de personalización para contextos específicos
-- Curva de aprendizaje pronunciada
+</div>
+
+> [*+Detalle*](fea.md)
 
 ### Comparación entre frameworks
 

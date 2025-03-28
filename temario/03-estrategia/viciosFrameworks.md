@@ -88,7 +88,7 @@ Identificar y comprender estos vicios es fundamental para:
 
 ## Relación con antipatrones directivos
 
-Estos vicios en la adopción de frameworks guardan estrecha relación con los [antipatrones en los marcos directivos](../../01-modelosNegocioInnovacion/antiPatrones.md) identificados previamente. Mientras los antipatrones directivos describen problemas generales en la aproximación a la dirección, los vicios en frameworks representan manifestaciones específicas de estos problemas en el contexto de la arquitectura empresarial y metodologías formalizadas.
+Estos vicios en la adopción de frameworks guardan estrecha relación con los [antipatrones en los marcos directivos](../../temario/01-modelosNegocioInnovacion/antiPatrones.md#cómo) identificados previamente. Mientras los antipatrones directivos describen problemas generales en la aproximación a la dirección, los vicios en frameworks representan manifestaciones específicas de estos problemas en el contexto de la arquitectura empresarial y metodologías formalizadas.
 
 |Antipatrón directivo|Manifestación en frameworks|
 |-|-|
@@ -105,12 +105,12 @@ La conciencia de estas conexiones permite abordar el problema de manera más int
 El reconocimiento de estos vicios no implica abandonar los frameworks, sino adoptar una aproximación más madura y equilibrada:
 
 1. **Pragmatismo contextual**: Adaptar el framework al contexto específico de la organización, no viceversa.
-2. **Incrementalismo valorativo**: Implementar primero los elementos que generan mayor valor en el contexto específico.
-3. **Escepticismo constructivo**: Cuestionar constantemente el valor real que aporta cada aspecto del framework.
-4. **Hibridación inteligente**: Combinar elementos de diferentes frameworks según necesidades específicas.
-5. **Medición de impacto**: Establecer indicadores claros para evaluar el valor real generado.
-6. **Evolución constante**: Refinar continuamente la implementación basándose en resultados observados.
-7. **Equilibrio forma-fondo**: Mantener el enfoque en objetivos estratégicos, usando el framework como medio, no como fin.
+1. **Incrementalismo valorativo**: Implementar primero los elementos que generan mayor valor en el contexto específico.
+1. **Escepticismo constructivo**: Cuestionar constantemente el valor real que aporta cada aspecto del framework.
+1. **Hibridación inteligente**: Combinar elementos de diferentes frameworks según necesidades específicas.
+1. **Medición de impacto**: Establecer indicadores claros para evaluar el valor real generado.
+1. **Evolución constante**: Refinar continuamente la implementación basándose en resultados observados.
+1. **Equilibrio forma-fondo**: Mantener el enfoque en objetivos estratégicos, usando el framework como medio, no como fin.
 
 ## Enlaces relevantes
 
